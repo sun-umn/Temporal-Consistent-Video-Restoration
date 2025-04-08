@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>Academic Project Page</title>
+  <title>Temporal-Consistent Video Restoration with Pre-trained Diffusion Models</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -85,7 +85,7 @@
 
             <div class="column has-text-centered">
                 <span class="link-block">
-                  <a href=""
+                  <a href="https://arxiv.org/abs/2503.14863"
                      class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                         <i class="ai ai-arxiv"></i>
@@ -111,6 +111,25 @@
     </div>
   </div>
 </section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video restoration (VR) aims to recover high-quality videos from degraded ones. Although recent zero-shot VR methods using pre-trained diffusion models (DMs) show good promise, they suffer from approximation errors during reverse diffusion and insufficient temporal consistency. Moreover, dealing with 3D video data, VR is inherently computationally intensive. In this paper, we advocate viewing the reverse process in DMs as a function and present a novel Maximum a Posterior (MAP) framework that directly parameterizes video frames in the seed space of DMs, eliminating approximation errors. We also introduce strategies to promote bilevel temporal consistency: semantic consistency by leveraging clustering structures in the seed space, and pixel-level consistency by progressive warping with optical flow refinements. Extensive experiments on multiple virtual reality tasks demonstrate superior visual quality and temporal consistency achieved by our method compared to the state-of-the-art.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
 
 <!-- Video carousel -->
 <section class="hero is-small">
@@ -244,7 +263,21 @@
 </section>
 <!-- End video carousel -->
 
-
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@misc{wang2025temporalconsistentvideorestorationpretrained,
+      title={Temporal-Consistent Video Restoration with Pre-trained Diffusion Models}, 
+      author={Hengkang Wang and Yang Liu and Huidong Liu and Chien-Chih Wang and Yanhui Guo and Hongdong Li and Bryan Wang and Ju Sun},
+      year={2025},
+      eprint={2503.14863},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.14863}, 
+}</code></pre>
+  </div>
+</section>
 
 
   <footer class="footer">
